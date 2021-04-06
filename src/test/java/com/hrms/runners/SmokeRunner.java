@@ -12,7 +12,8 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun=false,			
 		monochrome = true
 		,strict=true
-		,tags= "@AdminLoginTest"
+//		,tags= "@tag1 and @AdminLoginTest"
+		,tags= "@tag1"
 		,plugin= {
 				"pretty",
 				"html:target/cucumber-default-report",
